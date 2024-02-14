@@ -9,6 +9,8 @@ name = "pip_conf_index_global"
 pytest = "*"
 selenium = "*"
 webdriver-manager = "*"
+pytest-selenium = "*"
+pytest-xdist = "*"
 
 [requires]
 python_version = "3.12"
