@@ -159,3 +159,5 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 *.pyc
+tests/__pycache__/test_basic_selenium.cpython-312-pytest-8.0.0.pyc
+*.pyc
