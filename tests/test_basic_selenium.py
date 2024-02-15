@@ -70,3 +70,8 @@ def test_pytest_selenium_plugin_example(selenium):
     #  Assert the content attribute's value
     expected_content = "Learn to write production level Python Unit Tests with Pytest"
     assert content_value == expected_content
+
+
+# TODO - Show Tests with Parametrization for different browsers
+
+# TODO - Show Tests with the Page Object Model
