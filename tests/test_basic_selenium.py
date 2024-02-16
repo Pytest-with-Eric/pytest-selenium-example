@@ -1,13 +1,20 @@
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
+from selenium.common.exceptions import NoSuchElementException
 
 
 def test_title(chrome_browser):
+    """
+    Test the title of the Python.org website
+    """
     chrome_browser.get("https://www.python.org")
     assert chrome_browser.title == "Welcome to Python.org"
 
 
 def test_search(chrome_browser):
+    """
+    Test the search functionality of the DuckDuckGo website
+    """
     url = "https://duckduckgo.com/"
     search_term = "Pytest with Eric"
     # Navigate to the Google home page.
@@ -24,6 +31,9 @@ def test_search(chrome_browser):
 
 
 def test_login_functionality(chrome_browser):
+    """
+    Test the login functionality of the Practice Test Automation website
+    """
     url = "https://practicetestautomation.com/practice-test-login/"
 
     # Navigate to the login page
@@ -55,6 +65,9 @@ def test_login_functionality(chrome_browser):
 
 
 def test_pytest_selenium_plugin_example(selenium):
+    """
+    Test the title and description of the Pytest with Eric website using the pytest-selenium plugin
+    """
     selenium.get("https://pytest-with-eric.com")
 
     # Assert Web page title

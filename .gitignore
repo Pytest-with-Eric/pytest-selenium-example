@@ -1,5 +1,6 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
+__pycache__
 *.py[cod]
 *$py.class
 
@@ -161,3 +162,4 @@ cython_debug/
 *.pyc
 tests/__pycache__/test_basic_selenium.cpython-312-pytest-8.0.0.pyc
 *.pyc
+tests/__pycache__/test_basic_selenium.cpython-312-pytest-8.0.0.pyc
