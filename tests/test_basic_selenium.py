@@ -68,6 +68,7 @@ def test_pytest_selenium_plugin_example(selenium):
     """
     Test the title and description of the Pytest with Eric website using the pytest-selenium plugin
     """
+    selenium.implicitly_wait(10)
     selenium.get("https://pytest-with-eric.com")
 
     # Assert Web page title
